@@ -1,0 +1,24 @@
+body {
+  font-size: 16px;
+  font-family: Arial, sans;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fs-normal {
+  font-style: normal;
+}
+
+.fv-small-caps {
+  font-variant: small-caps;
+}

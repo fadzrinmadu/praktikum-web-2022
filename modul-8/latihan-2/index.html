@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+
+    <h1>Form Registrasi</h1>
+
+    <form action="contact.php" method="POST">
+      <div>
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama" id="nama" placeholder="Nama lengkap..." />
+      </div>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Username..." />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Your email..." />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Passowrd..." />
+      </div>
+      <div>
+        <label>Jenis kelamin:</label>
+        <input type="radio" name="jenis_kelamin" id="laki_laki" value="laki-laki" />
+        <label for="laki_laki">Laki-laki</label>
+        <input type="radio" name="jenis_kelamin" id="perempuan" value="perempuan" />
+        <label for="perempuan">Perempuan</label>
+      </div>
+      <div>
+        <label for="agama">Agama:</label>
+        <select name="agama" id="agama">
+          <option value="islam">Islam</option>
+          <option value="kristen">Kristen</option>
+          <option value="hindu">Hindu</option>
+          <option value="budha">Budha</option>
+        </select>
+      </div>
+      <div>
+        <label for="biografi">Biografi:</label>
+        <textarea name="biografi" id="biografi"></textarea>
+      </div>
+      <div>
+        <button type="submit">Registrasi</button>
+      </div>
+    </form>
+
+  </body>
+</html>
